@@ -3,22 +3,22 @@
 ;;
 ;; defaults
 
-(setq doom-theme 'doom-tomorrow-night)
+;; (setq doom-theme 'doom-tomorrow-night)
 
 (setq user-full-name "Vieko Franetovic"
-      user-mail-address "vieko@pm.me")
+      user-mail-address "vieko.franetovic@gmail.com")
 
 ;;
 ;; looks
 
 (setq display-line-numbers-type 'relative)
 
-(setq doom-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 20)
-      doom-variable-pitch-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 18)
-      doom-unicode-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 18)
-      doom-big-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 26))
+(setq doom-font (font-spec :family "Meslo LG L DZ" :size 13))
+      ;; doom-variable-pitch-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 11)
+      ;; doom-unicode-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 11)
+      ;; doom-big-font (font-spec :family "MesloLGLDZ Nerd Font Mono" :size 19))
 
-(font-put doom-font :weight 'semi-light)
+;; (font-put doom-font :weight 'semi-light)
 
 ;;
 ;; keybindings

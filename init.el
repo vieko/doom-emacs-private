@@ -8,7 +8,7 @@
 
        :completion
        (company
-        ;; +auto
+        +auto
         +childframe
         )
        (ivy +fuzzy)
